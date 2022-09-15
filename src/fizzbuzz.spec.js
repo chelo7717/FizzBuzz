@@ -26,4 +26,9 @@ describe("FizzBuzz para un numero", () => {
     const resultado = fb.generarPara(5);
     expect(resultado).toEqual('Buzz');
   });
+  it("deberia generar buzz para el 10", () => {
+    const fb=new FizzBuzz();
+    const resultado = fb.generarPara(10);
+    expect(resultado).toEqual('Buzz');
+  });
 });
